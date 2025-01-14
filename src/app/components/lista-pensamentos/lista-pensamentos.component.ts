@@ -3,11 +3,11 @@ import { Pensamento } from 'src/app/interfaces/pensamento';
 import { PensamentoService } from 'src/app/services/pensamento.service';
 
 @Component({
-  selector: 'app-listar-pensamento',
-  templateUrl: './listar-pensamento.component.html',
-  styleUrls: ['./listar-pensamento.component.css']
+  selector: 'app-lista-pensamento',
+  templateUrl: './lista-pensamentos.component.html',
+  styleUrls: ['./lista-pensamentos.component.css']
 })
-export class ListarPensamentoComponent implements OnInit {
+export class ListaPensamentosComponent implements OnInit {
 
   listaPensamentos: Pensamento[] = [];
 

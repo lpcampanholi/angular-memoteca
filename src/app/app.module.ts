@@ -7,18 +7,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { CardPensamentoComponent } from './components/card-pensamento/card-pensamento.component';
-import { CriarPensamentoComponent } from './components/criar-pensamento/criar-pensamento.component';
-import { ListarPensamentoComponent } from './components/listar-pensamento/listar-pensamento.component';
+import { FormPensamentoComponent } from './components/form-pensamento/form-pensamento.component';
+import { ListaPensamentosComponent } from './components/lista-pensamentos/lista-pensamentos.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { ModalExcluirPensamentoComponent } from './components/modal-excluir-pensamento/modal-excluir-pensamento.component';
+import { ModalEditarPensamentoComponent } from './components/modal-editar-pensamento/modal-editar-pensamento.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-    CriarPensamentoComponent,
-    ListarPensamentoComponent,
+    FormPensamentoComponent,
+    ListaPensamentosComponent,
     CardPensamentoComponent,
+    ModalExcluirPensamentoComponent,
+    ModalEditarPensamentoComponent,
   ],
   imports: [
     BrowserModule,

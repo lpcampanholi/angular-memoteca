@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CriarPensamentoComponent } from './components/criar-pensamento/criar-pensamento.component';
-import { ListarPensamentoComponent } from './components/listar-pensamento/listar-pensamento.component';
+
+import { FormPensamentoComponent } from './components/form-pensamento/form-pensamento.component';
+import { ListaPensamentosComponent } from './components/lista-pensamentos/lista-pensamentos.component';
+import { ModalEditarPensamentoComponent } from './components/modal-editar-pensamento/modal-editar-pensamento.component';
+import { ModalExcluirPensamentoComponent } from './components/modal-excluir-pensamento/modal-excluir-pensamento.component';
 
 const routes: Routes = [
   {
@@ -11,11 +14,19 @@ const routes: Routes = [
   },
   {
     path: 'criar',
-    component: CriarPensamentoComponent
+    component: FormPensamentoComponent
   },
   {
     path: 'listar',
-    component: ListarPensamentoComponent
+    component: ListaPensamentosComponent
+  },
+  {
+    path: 'excluir/:id',
+    component: ModalExcluirPensamentoComponent
+  },
+  {
+    path: 'editar/:id',
+    component: ModalEditarPensamentoComponent
   }
 ];
 
