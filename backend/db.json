@@ -2,27 +2,51 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autodia": "Nay",
-      "modelo": "modelo3"
+      "conteudo": "Utilizar a ferramenta Angular CLI para criar um projeto Angular",
+      "autodia": "Curso Angular",
+      "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Que bom que vc veio",
-      "autodia": "LP",
+      "conteudo": "Conhecer a estrutura de um componente Angular (HTML, CSS e TS)",
+      "autodia": "Curso Angular",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Sapien in monti palavris qui num significa nadis i pareci latim.",
-      "autodia": "Dev",
+      "conteudo": "Entender como funciona o fluxo de dados no componente",
+      "autodia": "Curso Angular",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 4,
+      "conteudo": "Utilizar rotas para adicionar navegação dinâmica entre as telas da aplicação",
+      "autoria": "Curso Angular",
       "modelo": "modelo1"
     },
     {
-      "conteudo": "Pensamento de Teste Testando função de editar",
-      "autoria": "LPDev",
-      "modelo": "modelo1",
-      "id": 4
+      "id": 5,
+      "conteudo": "Aprender o que são e acomo utilizar algumas das principais diretivas do Angular",
+      "autoria": "Curso Angular",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 6,
+      "conteudo": "Compreender o que são services e como utilizar injeção de dependências",
+      "autoria": "Curso Angular",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 7,
+      "conteudo": "Continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar...",
+      "autoria": "Curso Angular",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 8,
+      "conteudo": "Realizar a comunicação cliente-servidor através do HTTPClient para fazer requisições AJAX (Get, Post, Put e Delete)",
+      "autoria": "Curso Angular",
+      "modelo": "modelo2"
     }
   ]
 }
