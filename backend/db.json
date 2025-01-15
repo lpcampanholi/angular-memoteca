@@ -2,57 +2,129 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Utilizar a ferramenta Angular CLI para criar um projeto Angular",
-      "autoria": "Curso Angular",
-      "modelo": "modelo2"
+      "conteudo": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original.",
+      "autoria": "Albert Einstein",
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 2,
-      "conteudo": "Conhecer a estrutura de um componente Angular (HTML, CSS e TS)",
-      "autoria": "Curso Angular",
-      "modelo": "modelo2"
+      "conteudo": "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
+      "autoria": "Winston Churchill",
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
-      "conteudo": "Entender como funciona o fluxo de dados no componente",
-      "autoria": "Curso Angular",
-      "modelo": "modelo3"
+      "conteudo": "Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.",
+      "autoria": "James Cameron",
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 4,
-      "conteudo": "Utilizar rotas para adicionar navegação dinâmica entre as telas da aplicação",
-      "autoria": "Curso Angular",
-      "modelo": "modelo1"
+      "conteudo": "Não são as espécies mais fortes que sobrevivem, nem as mais inteligentes, e sim as que melhor se adaptam às mudanças.",
+      "autoria": "Charles Darwin",
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 5,
-      "conteudo": "Aprender o que são e acomo utilizar algumas das principais diretivas do Angular",
-      "autoria": "Curso Angular",
-      "modelo": "modelo2"
+      "conteudo": "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
+      "autoria": "Roberto Shinyashiki",
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 6,
-      "conteudo": "Compreender o que são services e como utilizar injeção de dependências",
-      "autoria": "Curso Angular",
-      "modelo": "modelo3"
+      "conteudo": "Quem vence sem riscos triunfa sem glória.",
+      "autoria": "Pierre Corneille",
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 7,
-      "conteudo": "Continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar... continue a codar...",
-      "autoria": "Curso Angular",
-      "modelo": "modelo1"
+      "conteudo": "A persistência é o caminho do êxito.",
+      "autoria": "Charles Chaplin",
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 8,
-      "conteudo": "Realizar a comunicação cliente-servidor através do HTTPClient para fazer requisições AJAX (Get, Post, Put e Delete)",
-      "autoria": "Curso Angular",
-      "modelo": "modelo1"
+      "conteudo": "A simplicidade é o último grau de sofisticação.",
+      "autoria": "Leonardo da Vinci",
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 9,
-      "conteudo": "Que a força esteja com você",
+      "conteudo": "Que a força esteja com você.",
       "autoria": "Mestre Yoda",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
+    },
+    {
+      "id": 10,
+      "conteudo": "O maior erro que você pode cometer é o de ficar o tempo todo com medo de cometer algum.",
+      "autoria": "Elbert Hubbard",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 11,
+      "conteudo": "Seja a mudança que você deseja ver no mundo.",
+      "autoria": "Mahatma Gandhi",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 12,
+      "conteudo": "A única maneira de fazer um excelente trabalho é amar o que você faz.",
+      "autoria": "Steve Jobs",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 13,
+      "conteudo": "Acredite em si próprio e chegará um dia em que os outros não terão outra escolha senão acreditar com você.",
+      "autoria": "Cynthia Kersey",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 14,
+      "conteudo": "A educação é a arma mais poderosa que você pode usar para mudar o mundo.",
+      "autoria": "Nelson Mandela",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 15,
+      "conteudo": "Nada é impossível, a palavra em si diz 'Eu sou possível'!",
+      "autoria": "Audrey Hepburn",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 16,
+      "conteudo": "O segredo do sucesso é começar.",
+      "autoria": "Mark Twain",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 17,
+      "conteudo": "A vida é 10% o que acontece comigo e 90% como eu reajo a isso.",
+      "autoria": "Charles Swindoll",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 18,
+      "conteudo": "Que a força esteja com você.",
+      "autoria": "Mestre Yoda",
+      "modelo": "modelo3",
+      "favorito": false
     }
   ]
 }

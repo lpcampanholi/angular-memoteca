@@ -11,6 +11,7 @@ import { FormPensamentoComponent } from './components/form-pensamento/form-pensa
 import { ListaPensamentosComponent } from './components/lista-pensamentos/lista-pensamentos.component';
 import { MensagemExcluirPensamentoComponent } from './components/mensagem-excluir-pensamento/mensagem-excluir-pensamento.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { BotaoCarregarMaisComponent } from './components/botao-carregar-mais/botao-carregar-mais.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     ListaPensamentosComponent,
     CardPensamentoComponent,
     MensagemExcluirPensamentoComponent,
+    BotaoCarregarMaisComponent,
   ],
   imports: [
     BrowserModule,

@@ -41,7 +41,8 @@ export class FormPensamentoComponent implements OnInit {
         Validators.required,
         Validators.minLength(3) // mínimo 3 caracteres
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     })
   }
 
