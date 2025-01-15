@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { FormPensamentoComponent } from './components/form-pensamento/form-pensamento.component';
 import { ListaPensamentosComponent } from './components/lista-pensamentos/lista-pensamentos.component';
-import { ModalEditarPensamentoComponent } from './components/modal-editar-pensamento/modal-editar-pensamento.component';
 import { MensagemExcluirPensamentoComponent } from './components/mensagem-excluir-pensamento/mensagem-excluir-pensamento.component';
 
 const routes: Routes = [
@@ -26,7 +25,7 @@ const routes: Routes = [
   },
   {
     path: 'editar/:id',
-    component: ModalEditarPensamentoComponent
+    component: FormPensamentoComponent
   }
 ];
 

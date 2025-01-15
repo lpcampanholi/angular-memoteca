@@ -3,19 +3,19 @@
     {
       "id": 1,
       "conteudo": "Utilizar a ferramenta Angular CLI para criar um projeto Angular",
-      "autodia": "Curso Angular",
-      "modelo": "modelo1"
+      "autoria": "Curso Angular",
+      "modelo": "modelo2"
     },
     {
       "id": 2,
       "conteudo": "Conhecer a estrutura de um componente Angular (HTML, CSS e TS)",
-      "autodia": "Curso Angular",
+      "autoria": "Curso Angular",
       "modelo": "modelo2"
     },
     {
       "id": 3,
       "conteudo": "Entender como funciona o fluxo de dados no componente",
-      "autodia": "Curso Angular",
+      "autoria": "Curso Angular",
       "modelo": "modelo3"
     },
     {
@@ -46,7 +46,13 @@
       "id": 8,
       "conteudo": "Realizar a comunicação cliente-servidor através do HTTPClient para fazer requisições AJAX (Get, Post, Put e Delete)",
       "autoria": "Curso Angular",
-      "modelo": "modelo2"
+      "modelo": "modelo1"
+    },
+    {
+      "id": 9,
+      "conteudo": "Que a força esteja com você",
+      "autoria": "Mestre Yoda",
+      "modelo": "modelo3"
     }
   ]
 }

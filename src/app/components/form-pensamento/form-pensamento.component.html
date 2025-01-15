@@ -107,8 +107,8 @@
     </div>
 
     <div class="acoes">
-      <button [disabled]="!formulario.valid" (click)="criarPensamento()" [ngClass]="habilitarBotao()">
-        Salvar
+      <button [disabled]="!formulario.valid" (click)="submeterFormulario()" [ngClass]="habilitarBotao()">
+        {{ pensamentoId ? 'Salvar Alterações' : 'Criar pensamento'}}
       </button>
       <button class="botao" (click)="cancelar()">Cancelar</button>
     </div>
