@@ -13,3 +13,10 @@
 - Compreender o que são services e como utilizar injeção de dependências
 
 - Realizar a comunicação cliente-servidor através do HTTPClient para fazer requisições AJAX (Get, Post, Put e Delete)
+
+
+- Usar dois modais diferentes para editar / criar novo Memo
+- lista dos favoritos paralela, lógica no componente filho (card),
+- Output() atualizar lista
+- Evento ($event)
+- router (recarregar o componente)

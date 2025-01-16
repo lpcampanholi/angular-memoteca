@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Pensamento } from 'src/app/interfaces/pensamento';
 import { PensamentoService } from 'src/app/services/pensamento.service';
 
@@ -16,6 +16,8 @@ export class CardPensamentoComponent implements OnInit {
     modelo: 'modelo3',
     favorito: false
   }
+
+  @Output() favoritoAtualizado = new EventEmitter();
 
   constructor(private service: PensamentoService) { }
 
@@ -37,8 +39,10 @@ export class CardPensamentoComponent implements OnInit {
     }
   }
 
-  mudarFavorito(): void {
-    this.service.mudarFavorito(this.pensamento).subscribe();
+  atualizarFavorito(): void {
+    this.service.mudarFavorito(this.pensamento).subscribe(() => {
+      this.favoritoAtualizado.emit(this.pensamento);
+    });
   }
 
 }

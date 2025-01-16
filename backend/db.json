@@ -5,14 +5,14 @@
       "conteudo": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original.",
       "autoria": "Albert Einstein",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
       "autoria": "Winston Churchill",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
@@ -61,7 +61,7 @@
       "conteudo": "Que a força esteja com você.",
       "autoria": "Mestre Yoda",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 10,
@@ -120,11 +120,11 @@
       "favorito": false
     },
     {
-      "id": 18,
-      "conteudo": "Que a força esteja com você.",
-      "autoria": "Mestre Yoda",
-      "modelo": "modelo3",
-      "favorito": false
+      "conteudo": "Você faz TI? Conserta meu celular!",
+      "autoria": "Uber",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 18
     }
   ]
 }
